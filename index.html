@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню игр</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .game-card {
+            background-color: white;
+            width: 250px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .game-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .game-card h3 {
+            margin: 10px;
+            font-size: 18px;
+        }
+
+        .game-card p {
+            margin: 10px;
+            color: #555;
+        }
+
+        .game-card button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .game-card button:hover {
+            background-color: #45a049;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Меню моих игр</h1>
+</header>
+
+<div class="container">
+    <div class="game-card">
+        <img src="https://raw.githubusercontent.com/olegbuilder/Crypto-Tycoon/main/assets/screenshot.png" alt="Crypto Tycoon">
+        <h3>Crypto Tycoon</h3>
+        <p>Заработай на криптовалюте, становись миллиардером!</p>
+        <button onclick="window.location.href='https://github.com/olegbuilder/Crypto-Tycoon'">Старт</button>
+    </div>
+
+    <div class="game-card">
+        <img src="https://raw.githubusercontent.com/olegbuilder/EmojiFootball/main/assets/screenshot.png" alt="Emoji Football">
+        <h3>Emoji Football</h3>
+        <p>Футбол с эмодзи! Почувствуй себя тренером.</p>
+        <button onclick="window.location.href='https://github.com/olegbuilder/EmojiFootball'">Старт</button>
+    </div>
+
+    <div class="game-card">
+        <img src="https://raw.githubusercontent.com/olegbuilder/Emoji-Restaurant-Tycoon/main/assets/screenshot.png" alt="Emoji Restaurant Tycoon">
+        <h3>Emoji Restaurant Tycoon</h3>
+        <p>Управляй рестораном с эмодзи! Стань мастером кулинарии.</p>
+        <button onclick="window.location.href='https://github.com/olegbuilder/Emoji-Restaurant-Tycoon'">Старт</button>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Рейтинг игр: ⭐⭐⭐⭐⭐</p>
+    <p>Профили пользователей: [Ссылка на профили]</p>
+</div>
+
+</body>
+</html>
